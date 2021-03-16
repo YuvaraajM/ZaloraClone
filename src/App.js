@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import JustArrived from "./components/JustArrived";
 import Navbar from "./components/Navbar";
+import TrendingNow from "./components/TrendingNow";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Navbar />
 			<Banner />
 			<JustArrived />
+			<TrendingNow />
 			<Footer />
 		</div>
 	);

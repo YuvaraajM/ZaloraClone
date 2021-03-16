@@ -1,0 +1,20 @@
+.container
+{
+    margin: 0px 230px;
+}
+
+.main__images__TD
+{
+    display: inline-block;
+
+}
+
+.main__images__TD img
+{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
