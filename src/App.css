@@ -11,4 +11,5 @@ body
   line-height: 1.6;
   font-family: Apercu,Gill Sans MT,Gill Sans,Arial,sans-serif;
   letter-spacing: .05em;
+  scroll-behavior: smooth;
 }

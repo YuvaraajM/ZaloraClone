@@ -1,0 +1,18 @@
+.main__banner
+{
+    margin:20px  240px;
+    /* min-height: 500px; */
+}
+
+.second__img img
+{
+    margin-top: 15px;
+}
+.gridy{
+    display: flex;
+}
+.gridy img
+{
+    margin-top: 15px;
+    padding-left: 5px;
+}

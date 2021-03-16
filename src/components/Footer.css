@@ -1,43 +1,71 @@
 .main__footer {
-	position: absolute;
+	position: realtive;
 	width: 100%;
 	background-color: black;
 	color: white;
 	left: 0;
 	bottom: 0;
-	
+    padding: 40px;
+
 }
 .main__content
 {
     display: grid;
 	grid-template-columns: 4fr 2fr 2fr 4fr;
 	grid-template-areas:
-		"a b c d"
-		"a b c d"
-		"a b c d"
 		"a b c d";
+	margin-left: 10px;
+    /* margin-right: 100px; */
+
+}
+
+.main__footer ul{
+    margin-top: 20px;
 }
 .main__footer ul > li {
 	list-style: none;
-	background: transparent;
+	background-color: transparent;
+    color: lightgray;
+    font-size: 15px;
+    line-height: 30px;
+    
 }
-.main__footer div {
+p{
+    font-size: 15px;
+    color: lightgray;
+}
+h4{
+    font-size: 15px;
+    
+}
+.main__footer >div {
 	padding: 10px;
 }
 .section__1 {
 	grid-area: a;
+    margin-left: 20px;
 }
 .section__2 {
 	grid-area: b;
+    margin-left: 90px;
+    margin-right: 35px;
 }
 
 .section__3 {
 	grid-area: c;
+    margin-left: 25px;
+    margin-right: 35px;
 }
 .section__4 {
 	grid-area: d;
+    margin-left: 76px;
+    /* margin-right: 35px; */
 }
-
+.section__1 h1{
+    font-size: 50px;
+    letter-spacing: 1rem;
+    align-items: center;
+}
 .input__form input{
     background: white;
     height: 36px;
@@ -80,8 +108,8 @@ span
 }
 .secondary__1
 {
-    position: relative;
-    left:0;
+    position: absolute;
+    left: 80px;
 }
 
 .download__option img
@@ -89,3 +117,13 @@ span
     width: 200px;
 
 }
+
+.secondary__2
+{
+    margin-left: 867px;
+}
+
+.section__4  >*{
+    margin-top: 20px;
+}
+

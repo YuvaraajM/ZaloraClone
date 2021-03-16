@@ -1,0 +1,24 @@
+.main {
+	margin: 20px 240px;
+}
+.main .title {
+	text-align: center;
+    margin-bottom: 20px;
+}
+.justArrived__images
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a b";
+    grid-gap: 20px;
+}
+
+.justArrived__images img:first-of-type
+{
+    grid-area: a;
+}
+
+.justArrived__images img:last-of-type
+{
+    grid-area: b;
+}
