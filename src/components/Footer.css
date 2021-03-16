@@ -1,0 +1,91 @@
+.main__footer {
+	position: absolute;
+	width: 100%;
+	background-color: black;
+	color: white;
+	left: 0;
+	bottom: 0;
+	
+}
+.main__content
+{
+    display: grid;
+	grid-template-columns: 4fr 2fr 2fr 4fr;
+	grid-template-areas:
+		"a b c d"
+		"a b c d"
+		"a b c d"
+		"a b c d";
+}
+.main__footer ul > li {
+	list-style: none;
+	background: transparent;
+}
+.main__footer div {
+	padding: 10px;
+}
+.section__1 {
+	grid-area: a;
+}
+.section__2 {
+	grid-area: b;
+}
+
+.section__3 {
+	grid-area: c;
+}
+.section__4 {
+	grid-area: d;
+}
+
+.input__form input{
+    background: white;
+    height: 36px;
+    padding: 8px;
+    width: 100%;
+}
+.form__buttons  
+{
+    display: flex;
+    justify-content: space-between;
+}
+.btn
+{
+    
+    width: 150px;
+    padding: 12px;
+    font-size: 12px;
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid whitesmoke;
+}
+
+.secondary__content
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px;
+}
+
+.social__icons > svg
+{
+    display: inline-block;
+    margin: 1rem;
+    
+}
+span
+{
+    color: yellow;
+}
+.secondary__1
+{
+    position: relative;
+    left:0;
+}
+
+.download__option img
+{
+    width: 200px;
+
+}
