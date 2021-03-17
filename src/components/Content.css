@@ -1,0 +1,35 @@
+.content__main
+{
+    display: flex;
+    opacity: 0.5;
+}
+.content__main h2
+{
+    margin-bottom: 1rem;
+    font-variant: small-caps;
+}
+
+.content__main p
+{
+    color: #6d6e6e;
+    font-size: 0.75rem;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.content__main div
+{
+    margin: 0px 6rem;
+}
+
+.segment__1
+{
+    float: left;
+    width: 50%;
+}
+
+.segment__2
+{
+    float: right;
+    width: 50%;
+}
