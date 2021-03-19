@@ -1,0 +1,8 @@
+.main__images__FB {
+	display: inline-block;
+}
+
+.main__images__FB img {
+	margin-left: 10px;
+	margin-bottom: 5px;
+}

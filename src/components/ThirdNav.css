@@ -1,0 +1,24 @@
+.third__nav ul li {
+	display: inline-block;
+	margin: 1rem;
+	font-family: "Apercu", arial, sans-serif;
+	font-size: 10px;
+}
+.third__nav ul li:hover {
+	color: teal;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid teal;
+}
+.third__nav {
+	margin: 0.5rem 5rem;
+	/* position: absolute; */
+	height: 2rem;
+}
+.last__btn {
+	background-color: #5c5c5c;
+	padding: 8px;
+	color: white;
+	border-radius: 0.5rem;
+	outline: none;
+	text-transform: uppercase;
+}

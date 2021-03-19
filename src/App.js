@@ -6,16 +6,21 @@ import Navbar from "./components/Navbar";
 import SecondaryNav from "./components/SecondaryNav";
 import TrendingNow from "./components/TrendingNow";
 import Content from "./components/Content";
-
+import ThirdNav from "./components/ThirdNav";
+import FeaturedBrands from "./components/FeaturedBrands";
+import PromotionDeals from "./components/PromotionsDeals";
 function App() {
 	return (
 		<div className='app'>
 			<Navbar />
 			<SecondaryNav />
+			<ThirdNav />
 			<Banner />
 			<JustArrived />
 			<TrendingNow />
-			<Content App />
+			<FeaturedBrands />
+			<PromotionDeals />
+			<Content />
 			<Footer />
 		</div>
 	);

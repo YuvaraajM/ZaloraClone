@@ -1,0 +1,9 @@
+.main__images__PD {
+	display: inline-block;
+	padding-bottom: 6rem;
+}
+
+.main__images__PD img {
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
