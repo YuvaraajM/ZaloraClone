@@ -1,12 +1,14 @@
 .main__nav {
 	display: flex;
 	width: 100%;
-    margin: auto;
+	margin: auto;
 	height: 48px;
+	position: sticky;
 	padding: 0 16px;
 	align-items: center;
 	background-color: black;
 	color: white;
+	top: 0;
 }
 
 .nav__title {
